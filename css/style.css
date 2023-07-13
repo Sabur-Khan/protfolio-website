@@ -1,0 +1,648 @@
+/*===========================================
+            common css code start
+=============================================*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul li{
+ list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1, h2, h3, h4, h5, h6{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(10,25,47);
+}
+/*===========================================
+            Navbar code start
+=============================================*/
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-toggler{
+    border: 1px solid #fff;
+}
+.navbar{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-nav > .nav-item{
+    margin-right: 40px;
+    position: relative;
+}
+.navbar-nav > .nav-item .nav-link{
+    padding: 0px 0px 5px 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-nav > .nav-item .nav-link::after{
+    content: '';
+    left: 0;
+    width: 0;
+    opacity: 0;
+    height: 3px;
+    bottom: -6px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #e9af1d;
+}
+.navbar-nav > .nav-item .nav-link::before {
+	content: '';
+	left: 0;
+	width: 0;
+	top: 40px;
+    opacity: 0;
+	height: 3px;
+	position: absolute;
+    border-radius: 10px;
+	background-color: rgb(233,175,29);
+}
+.navbar-nav > .nav-item:hover .nav-link{
+    color: rgb(233,175,29);
+    transition: all linear.4s;
+}
+.navbar-nav .nav-item .nav-link:hover::after{
+    opacity: 1;
+    width: 100%;
+    transition: all linear.4s;
+}
+.navbar-nav .nav-item .nav-link:hover::before{
+    opacity: 1;
+    width: 40%;
+    transition: all linear.4s;
+}
+.menu-btn {
+    color: white;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 6px 18px;
+	background-color: transparent;
+	border: 2px solid rgb(233,175,29);
+	font-family: 'Poppins', sans-serif;
+}
+.menu-btn:hover{
+    transition: all linear.4s;
+    background-color: rgb(233,175,29);
+}
+
+/*===========================================
+            Navbar code end
+=============================================*/
+
+/*===========================================
+            Banner code start
+=============================================*/
+
+#banner{
+    padding-top: 200px;
+}
+
+/* banner left content start*/
+
+.banner-content .my-self-text h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    color: rgb(233, 175, 29);
+    font-weight: 500;
+}
+.banner-content .my-self-text h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: #e6f1ff;
+    line-height: 88px;
+}
+.banner-content .my-self-text h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #e9af1d;
+    line-height: 34px;
+}
+
+/* Socialmedia left content code start */
+
+.my-socialmedia-content .socialmedai-item{
+	width: 30%;
+	display: flex;
+	padding-left: 0;
+	padding-top: 33px;
+	text-align: center;
+}
+.my-socialmedia-content .socialmedai-item li{
+	padding-top: 9px;
+	width: 40px;
+	height: 40px;
+    margin-right: 15px;
+	cursor: pointer;
+	border-radius: 50%;
+	background-color: rgb(255, 255, 255);
+}
+
+.socialmedai-item .social-li-one:hover {
+	background-color: #000000;
+    transform: translateY(-8px);
+    transition-duration: 1s, 0s;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+}
+.socialmedai-item .social-li-one:hover .social-i{
+    transition: all linear.3s;
+    color: white;
+}
+
+.socialmedai-item .social-li-two:hover{
+    background-color: #0077b5;
+    transform: translateY(-8px);
+    transition-duration: 1s, 0s;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+}
+.socialmedai-item .social-li-two:hover .social-i{
+    transition: all linear.3s;
+    color: white;
+}
+
+.socialmedai-item .social-li-three:hover{
+    background-color: #0056b3;
+    transition-duration: 1s, 0s;
+    transform: translateY(-8px);
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+}
+.socialmedai-item .social-li-three:hover .social-i{
+    transition: all linear.3s;
+    color: white;
+}
+
+.socialmedai-item .social-li-four:hover{
+    background-color: #00acee;
+    transition-duration: 1s, 0s;
+    transform: translateY(-8px);
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+}
+.socialmedai-item .social-li-four:hover .social-i{
+    transition: all linear.4s;
+    color: white;
+}
+
+.socialmedai-item .social-li-one .social-i {
+    font-size: 22px;
+    color: black;
+}
+.socialmedai-item .social-li-two .social-i {
+    font-size: 22px;
+    color: black;
+}
+.socialmedai-item .social-li-three .social-i {
+    font-size: 22px;
+    color: black;
+}
+.socialmedai-item .social-li-four .social-i {
+    font-size: 22px;
+    color: black;
+}
+.about-my-self{
+    margin-top: 20px;
+    padding: 10px;
+}
+.about-my-self > p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #e6f1ff;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+/* Banner right content  start*/
+.banner-right-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-right-content .banner-profile-box {
+	width: 250px;
+	height: 250px;
+    padding: 20px;
+	overflow: hidden;
+	border-radius: 50%;
+    text-align: center;
+	border: 3px solid #fff;
+}
+.banner-right-content .banner-profile-box img {
+	width: 390px;
+	margin: -101px 0px 0px -40px;
+}
+.about-my-self > .about-me-button{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 30px;
+    margin-right: 45px;
+    border-radius: 5px;
+    background-color: #e9af1d;
+    font-family: 'Poppins', sans-serif;
+}
+.about-my-self > .about-me-button:hover{
+    background-color: transparent;
+    border: 3px solid #e9af1d;
+    transition: all linear.4s;
+    color: #fff;
+}
+.about-my-self > .resume-button{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #e9af1d;
+    font-family: 'Poppins', sans-serif;
+}
+.about-my-self > .resume-button:hover{
+    background-color: transparent;
+    border: 3px solid #e9af1d;
+    transition: all linear.4s;
+    color: #fff;
+}
+
+/*===========================================
+            Banner code end
+=============================================*/
+
+/*===========================================
+            my projects code start
+=============================================*/
+
+#my-projects{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.my-project-heading-title{
+    margin: 0 auto;
+    text-align: center;
+}
+.my-project-heading-title h2{
+    color: #fff;
+    font-size: 32px; 
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif; 
+    padding-bottom: 20px;
+    position: relative;
+}
+.my-project-heading-title h2::after {
+	content: '';
+	left: calc(50% - 153px);
+	right: 25%;
+	bottom: 0;
+	width: 300px;
+	height: 2px;
+	position: absolute;
+	background-color: #e6f1ff;
+}
+.my-project-heading-title h2::before {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: 53px;
+	left: calc(50% - 5px);
+	width: 12px;
+	height: 12px;
+	background-color: #f3c623;
+	border-radius: 50%;
+	box-shadow: inset 0 0 0 2px#1D1D1D,0 0 0 10px #1d1d1d;
+}
+.my-project-card{
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid #fff;
+}
+.my-project-card .my-project-img{
+    width: 100%;
+}
+.my-project-card .my-project-card-body{
+    padding: 20px 30px;
+}
+.my-project-card .my-project-card-body h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.my-project-card .my-project-card-body p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.my-project-card .my-project-card-body .my-project-card-tag {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.my-project-card .my-project-card-body .my-project-card-tag span{
+    padding: 4px 4px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    margin: 5px 8px;
+    border-radius: 5px;
+    background-color: #f3c623;
+    font-family: 'Poppins', sans-serif;
+}
+.my-project-card .my-project-card-body .my-project-card-button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-project-card .my-project-card-body .my-project-card-button a{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 7px 15px;
+    border-radius: 4px;
+    border: 2px solid #f3c623;
+    font-family: 'Poppins', sans-serif;
+}
+.my-project-card .my-project-card-body .my-project-card-button a:hover{
+    color: #212529;
+    background-color: #f3c623;
+    transition: all linear.2s;
+}
+
+
+
+/*===========================================
+            my projects code end
+=============================================*/
+
+/*===========================================
+           contact part code start
+=============================================*/
+
+#contact-us{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact-us-title{
+    text-align: center;
+    margin: 0 auto;
+}
+.contact-us-title h2{
+    font-size: 32px; 
+    color: #e6f1ff;
+    font-weight: 500;
+    padding-bottom: 10px;
+    font-family: 'Poppins',sans-serif;
+}
+.contact-us-title p{
+    font-family: 'Poppins',sans-serif;
+    color: #e6f1ff;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 25px;
+    position: relative;
+}
+.contact-us-title p::after {
+	content: '';
+	left: calc(50% - 250px);
+	right: 25%;
+	bottom: 0;
+	width: 500px;
+	height: 2px;
+	position: absolute;
+	background-color: #e6f1ff;
+}
+.contact-us-title p::before {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: 43px;
+	left: calc(50% - 5px);
+	width: 12px;
+	height: 12px;
+	background-color: #f3c623;
+	border-radius: 50%;
+	box-shadow: inset 0 0 0 2px#1D1D1D,0 0 0 10px #1d1d1d;
+}
+.form-div{
+    margin: 0 auto;
+    width: 48%;
+    padding: 10px 10px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #e6f1ff;
+    background-color: #172A45;
+}
+
+.form-div h1{
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 32px;
+    color: #e6f1ff;
+}
+.form-div input{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #495057;
+    width: 90%;
+    border-radius: 7px;
+}
+.form-div textarea{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #495057;
+    width: 90%;
+    border-radius: 7px;
+}
+.form-div .form-button{
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    background-color: #f3c623;
+    width: 90%;
+    border: none;
+}
+
+/*===========================================
+            contact part code end
+=============================================*/
+
+/*===========================================
+            footer part css start
+=============================================*/
+footer{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.footer-social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.footer-social-icon .footer-item{
+    display: flex;
+}
+.footer-social-icon .footer-item li .footer-i{
+    font-size: 22px;
+    color: black;
+}
+.footer-social-icon .footer-item li .footer-j{
+    font-size: 22px;
+    color: black;
+}
+.footer-social-icon .footer-item li .footer-k{
+    font-size: 22px;
+    color: black;
+}
+.footer-social-icon .footer-item li .footer-l{
+    font-size: 22px;
+    color: black;
+}
+
+.footer-social-icon .footer-item li{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    padding-top: 9px;
+    text-align: center;
+    margin-right: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.footer-item .footer-li-one:hover {
+	background-color: #000000;
+	transform: translateY(-8px);
+	transition-duration: 1s, 0s;
+	box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+}
+.footer-item .footer-li-one:hover .footer-i {
+	color: #ffffff;
+	transition-duration: 1s, 0s;
+}
+.footer-item .footer-li-two:hover {
+	background-color: #0077b5;
+    color: #fff;
+	transform: translateY(-8px);
+	transition-duration: 1s, 0s;
+	box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+}
+.footer-item .footer-li-two:hover .footer-j {
+	color: #ffffff;
+	transition-duration: 1s, 0s;
+}
+.footer-item .footer-li-three:hover {
+	background-color: #0056b3;
+    color: #fff;
+	transform: translateY(-8px);
+	transition-duration: 1s, 0s;
+	box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+}
+.footer-item .footer-li-three:hover .footer-k {
+	color: #ffffff;
+	transition-duration: 1s, 0s;
+}
+.footer-item .footer-li-four:hover {
+	background-color: #00acee;
+    color: #fff;
+	transform: translateY(-8px);
+	transition-duration: 1s, 0s;
+	box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+}
+.footer-item .footer-li-four:hover .footer-l {
+	color: #ffffff;
+	transition-duration: 1s, 0s;
+}
+.copyright-part{
+    text-align: center;
+}
+.copyright-part > small{
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+
+/*===========================================
+            footer part css end
+=============================================*/
+
+/*===========================================
+            About page css start
+=============================================*/
+.about-me-content{
+    margin: 0 auto;
+    padding: 0px 5px;
+}
+.about-me-title h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    font-family: 'Poppins',sans-serif;
+}
+.about-me-title h1::after{
+    content: '';
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    left: calc(50% - 36px);
+    background-color: #37ff29;
+}
+.about-me-body h4{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-family: 'Poppins',sans-serif;
+}
+.about-me-body{
+    padding-bottom: 50px;
+}
+.about-me-body .about-me-tag span{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 5px;
+    padding: 5px 5px;
+    border-radius: 4px;
+    background-color: #e9af1d;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+/*===========================================
+            About page css end
+=============================================*/

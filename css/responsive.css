@@ -1,0 +1,278 @@
+
+
+
+/*===========================================================================
+    `sm` applies to x-small devices (portrait phones, less than 576px)
+==============================================================================*/
+
+@media (max-width: 575.98px) { 
+    .navbar-brand{
+        margin-right: 0;
+    }
+    .navbar-brand img{
+        width: 200px;
+    }
+    .navbar-nav {
+        text-align: center;
+        background-color: #0b252fe0;
+    }
+    .navbar-nav > .nav-item .nav-link::after {
+        display: none;
+    }
+    .navbar-nav > .nav-item .nav-link::before {
+        display: none;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    /* ========banner part css======== */
+    .banner-content{
+        margin-top: -35px;
+    }
+    .banner-content .my-self-text h1 {
+        font-size: 50px;
+    }
+    .banner-content .my-self-text h3 {
+        font-size: 20px;
+        line-height: 19px;
+    }
+    .my-socialmedia-content .socialmedai-item {
+        width: 90%;
+        padding-top: 34px;
+    }
+    .about-my-self > p {
+        font-size: 15px;
+    }
+    .about-my-self > .about-me-button {
+        font-size: 13px;
+        font-weight: 500;
+        padding: 9px 18px;
+        margin-right: 45px;
+    }
+    .about-my-self > .resume-button {
+        font-size: 13px;
+        font-weight: 500;
+        padding: 9px 18px;
+    }
+    .about-my-self > .about-me-button:hover {
+        border: 1px solid #e9af1d;
+    }
+    .about-my-self > .resume-button:hover {
+        border: 1px solid #e9af1d;
+    }
+    /*=============banner right css============*/
+    .banner-right-content {
+        margin-top: 60px;
+    }
+    /* ==============my projects css=============*/
+    #my-projects {
+        padding-top: 85px;
+    }
+    .my-project-heading-title h2::after {
+        left: calc(50% - 119px);
+        width: 237px;
+    }
+    .my-project-card .my-project-card-body .my-project-card-tag {
+        justify-content: space-between;
+    }
+    .contact-us-title p::after {
+        left: calc(50% - 140px);
+        width: 280px;
+    }
+    .contact-us-title p::before {
+        top: 58px;
+    }
+    /* contact css */
+    .form-div {
+        margin: 0 auto;
+        width: 99%;
+    }
+}
+
+/*========================================================================
+    `md` applies to small devices (landscape phones, less than 768px)
+===========================================================================*/
+
+@media (min-width: 575.98px) and (max-width: 767.98px) { 
+    .navbar-brand{
+        margin-right: 0;
+    }
+    .navbar-brand img{
+        width: 200px;
+    }
+    .navbar-nav {
+        text-align: center;
+        background-color: #0b252fe0;
+    }
+    .navbar-nav > .nav-item .nav-link::after {
+        display: none;
+    }
+    .navbar-nav > .nav-item .nav-link::before {
+        display: none;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    /* ========banner part css======== */
+    .banner-content{
+        margin-top: -35px;
+    }
+    .banner-content .my-self-text h1 {
+        font-size: 50px;
+    }
+    .banner-content .my-self-text h3 {
+        font-size: 20px;
+        line-height: 19px;
+    }
+    .my-socialmedia-content .socialmedai-item {
+        width: 90%;
+        padding-top: 34px;
+    }
+    .about-my-self > p {
+        font-size: 15px;
+    }
+    .about-my-self > .about-me-button {
+        font-size: 13px;
+        font-weight: 500;
+        padding: 9px 18px;
+        margin-right: 45px;
+    }
+    .about-my-self > .resume-button {
+        font-size: 13px;
+        font-weight: 500;
+        padding: 9px 18px;
+    }
+    .about-my-self > .about-me-button:hover {
+        border: 1px solid #e9af1d;
+    }
+    .about-my-self > .resume-button:hover {
+        border: 1px solid #e9af1d;
+    }
+    /*=============banner right css============*/
+    .banner-right-content .banner-profile-box {
+        margin-top: 100px;
+    }
+    /* ==============my projects css=============*/
+    #my-projects {
+        padding-top: 85px;
+    }
+    .my-project-heading-title h2::after {
+        left: calc(50% - 127px);
+        width: 237px;
+    }
+    .my-project-card .my-project-card-body .my-project-card-tag {
+        justify-content: space-between;
+    }
+    .contact-us-title p::after {
+        left: calc(50% - 140px);
+        width: 280px;
+    }
+    .contact-us-title p::before {
+        top: 67px;
+    }
+    /* contact css */
+    .form-div {
+        margin: 0 auto;
+        width: 99%;
+    }
+ }
+
+/*========================================================================
+    `lg` applies to medium devices (tablets, less than 992px)
+==========================================================================*/
+
+@media (min-width: 767.98px) and (max-width: 991.98px) { 
+    .navbar-brand{
+        margin-right: 0;
+    }
+    .navbar-brand img{
+        width: 200px;
+    }
+    .navbar-nav {
+        text-align: center;
+        background-color: #0b252fe0;
+    }
+    .navbar-nav > .nav-item .nav-link::after {
+        display: none;
+    }
+    .navbar-nav > .nav-item .nav-link::before {
+        display: none;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    /* ========banner part css======== */
+    .banner-content{
+        margin-top: -35px;
+    }
+    .banner-content .my-self-text h1 {
+        font-size: 50px;
+    }
+    .banner-content .my-self-text h3 {
+        font-size: 20px;
+        line-height: 19px;
+    }
+    .my-socialmedia-content .socialmedai-item {
+        width: 90%;
+        padding-top: 34px;
+    }
+    .about-my-self > p {
+        font-size: 15px;
+    }
+    .about-my-self > .about-me-button {
+        font-size: 13px;
+        font-weight: 500;
+        padding: 9px 18px;
+        margin-right: 45px;
+    }
+    .about-my-self > .resume-button {
+        font-size: 13px;
+        font-weight: 500;
+        padding: 9px 18px;
+    }
+    .about-my-self > .about-me-button:hover {
+        border: 1px solid #e9af1d;
+    }
+    .about-my-self > .resume-button:hover {
+        border: 1px solid #e9af1d;
+    }
+    /*=============banner right css============*/
+    .banner-right-content .banner-profile-box {
+        margin-top: 100px;
+    }
+    /* ==============my projects css=============*/
+    #my-projects {
+        padding-top: 85px;
+    }
+    .my-project-heading-title h2::after {
+        left: calc(50% - 127px);
+        width: 237px;
+    }
+    .my-project-card .my-project-card-body .my-project-card-tag {
+        justify-content: space-between;
+    }
+    .contact-us-title p::after {
+        left: calc(50% - 153px);
+        width: 280px;
+    }
+    .contact-us-title p::before {
+        top: 67px;
+    }
+    /* contact css */
+    .form-div {
+        margin: 0 auto;
+        width: 99%;
+    }
+ }
+
+/*========================================================================
+    `xl` applies to large devices (desktops, less than 1200px)
+==========================================================================*/
+
+@media (max-width: 1199.98px) {  }
+
+/*========================================================================
+    `xxl` applies to x-large devices (large desktops, less than 1400px)
+===========================================================================*/
+
+@media (max-width: 1399.98px) {  }
