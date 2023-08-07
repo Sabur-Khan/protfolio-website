@@ -34,12 +34,12 @@ body{
 .navbar-toggler{
     border: 1px solid #fff;
 }
-.navbar{
-    position: absolute;
-    top: 10px;
-    left: 0;
-    width: 100%;
-    z-index: 999;
+.navbar {
+	position: fixed;
+	top: 0 left: 0;
+	width: 100%;
+	z-index: 999;
+	background: #001d48;
 }
 .navbar-nav > .nav-item{
     margin-right: 40px;
